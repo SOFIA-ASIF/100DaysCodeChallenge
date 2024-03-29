@@ -8,6 +8,8 @@ console.log(89 % 9);
 console.log(5 + 3);
 console.log(5 + 3);
 console.log(5 + 3);
-console.log(5 + 3);
-export {};
 //question 09
+let num = 23;
+let message6 = "my favourite number is: ";
+console.log(message6 + num);
+export {};
