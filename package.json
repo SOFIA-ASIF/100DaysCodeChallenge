@@ -1,0 +1,13 @@
+{
+  "name": "100dayscodechallenge",
+  "version": "1.0.0",
+  "description": "100 days of code by sir Asharib Ali in TypeScript and JavaScript",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
