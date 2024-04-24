@@ -4,9 +4,8 @@ function addition(a, b) {
 }
 console.log(addition(5, 9));
 //question 77
-function greeting(name) {
-    if (name === void 0) { name = "anonymous user"; }
-    console.log("Hello ".concat(name));
+function greeting(name = "anonymous user") {
+    console.log(`Hello ${name}`);
 }
 greeting("Sofia");
 greeting();
@@ -15,8 +14,9 @@ greeting();
 function declaration(c) {
     return c * c;
 }
-var expression = function (d) {
+const expression = function (d) {
     return d * d;
 };
 console.log(declaration(9));
 console.log(expression(9));
+export {};

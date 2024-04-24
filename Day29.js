@@ -11,8 +11,9 @@ function checkingString(line1) {
 }
 console.log(checkingString("your mouth can be a barrier between you and your success"));
 //question 87
-//substring cut the string from where we want to start it and end it 
+//substring cut the string from where we want to start it and end it
 function extractingAString(line2) {
     console.log(line2.substring(0, 20));
 }
 extractingAString("your mouth can be a barrier between you and your success");
+export {};

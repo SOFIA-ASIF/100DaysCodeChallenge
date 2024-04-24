@@ -10,21 +10,22 @@ console.log(vehicles.cars);
 console.log(vehicles.tractor);
 console.log(vehicles.buses);
 console.log(vehicles.motorcycle);
-var student = {
+let student = {
     name: "sofia",
     age: 19,
     class: 13,
-    courses: ["maths", "english", "urdu"]
+    courses: ["maths", "english", "urdu"],
 };
 console.log(student);
-var square = {
+let square = {
     kind: "square",
-    height: 5
+    height: 5,
 };
-var rectangle = {
+let rectangle = {
     kind: "rectangle",
     height: 10,
-    width: 8
+    width: 8,
 };
 console.log(square);
 console.log(rectangle);
+export {};

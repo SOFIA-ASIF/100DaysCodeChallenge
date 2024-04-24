@@ -16,3 +16,4 @@ function replacement(line5) {
     return line5.replace(/your/g, "our");
 }
 console.log(replacement("your mouth can be a barrier between you and your success"));
+export {};

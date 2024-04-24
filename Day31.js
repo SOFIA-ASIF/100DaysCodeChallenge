@@ -1,5 +1,5 @@
 //question 91
-var favouriteFruit = ["Apple", "Orange", "Banana"];
+let favouriteFruit = ["Apple", "Orange", "Banana"];
 console.log(favouriteFruit);
 favouriteFruit.push("Kiwi");
 console.log(favouriteFruit);
@@ -9,7 +9,8 @@ function removeElement(favouriteFruit) {
 }
 console.log(removeElement(favouriteFruit));
 //question 93
-var index = favouriteFruit.indexOf("Banana");
+let index = favouriteFruit.indexOf("Banana");
 console.log(index);
 favouriteFruit[index] = "Mango";
 console.log(favouriteFruit);
+export {};

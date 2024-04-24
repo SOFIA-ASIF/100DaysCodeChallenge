@@ -1,16 +1,16 @@
 //question 70
-for (var i = 0; i < 5; i++) {
+for (let i = 0; i < 5; i++) {
     console.log(i);
 }
 //question 71
 //const can't be updated while let can
-var a = 6;
+let a = 6;
 console.log(a);
 a = 8;
 console.log(a);
-var b = "sofia";
+const b = "sofia";
 console.log(b);
-//b = "Jaziba"
+//b = "Jaziba"   comment out bcz can't be possible
 try {
     console.log(b);
 }
@@ -19,8 +19,8 @@ catch (error) {
 }
 //question 72
 {
-    var blockLet = 5;
-    var blockConst = 5;
+    let blockLet = 5;
+    const blockConst = 5;
     console.log(blockLet);
     console.log(blockConst);
 }
@@ -37,3 +37,4 @@ try {
 catch (error) {
     console.log("Nlock is not accessible");
 }
+export {};
