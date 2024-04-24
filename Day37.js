@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 109
 let currentTime = new Date();
 if (currentTime.getHours() <= 12) {
@@ -35,4 +37,3 @@ console.log(personsCategory(24));
 console.log(personsCategory(1.5));
 console.log(personsCategory(10));
 console.log(personsCategory(19));
-export {};

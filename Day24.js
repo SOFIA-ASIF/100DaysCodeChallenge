@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 70
 for (let i = 0; i < 5; i++) {
     console.log(i);
@@ -37,4 +39,3 @@ try {
 catch (error) {
     console.log("Nlock is not accessible");
 }
-export {};

@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 124
 let person = {
     name: "sofia",
@@ -27,4 +29,3 @@ let student = {
     }
 };
 student.outerMethod();
-export {};

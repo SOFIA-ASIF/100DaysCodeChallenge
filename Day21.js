@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 61
 var vehicles;
 (function (vehicles) {
@@ -28,4 +30,3 @@ let rectangle = {
 };
 console.log(square);
 console.log(rectangle);
-export {};

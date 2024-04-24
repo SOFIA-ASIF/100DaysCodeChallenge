@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 121
 for (let i = 1; i <= 10; i++) {
     if (i == 5)
@@ -23,4 +25,3 @@ function words(str) {
     }
 }
 words("sofia");
-export {};

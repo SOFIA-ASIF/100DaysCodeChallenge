@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 67
 //Number convert string number to integar number
 let addStringtoNumber = function (a, b) {
@@ -20,4 +22,3 @@ function division(dividened, divisor) {
     return { quotient, reminder };
 }
 console.log(division(32, 8));
-export {};

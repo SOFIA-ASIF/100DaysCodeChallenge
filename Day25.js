@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 73
 function trackingOfVariable() {
     let num = 4;
@@ -22,4 +24,3 @@ function assignmentOperator(a) {
     console.log(a /= 4);
 }
 assignmentOperator(8);
-export {};

@@ -1,43 +1,45 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.utiltwo = exports.utilone = exports.person = exports.add = void 0;
-var add = function (a, b) { return a * b; };
+const add = (a, b) => a * b;
 exports.add = add;
-var person = /** @class */ (function () {
-    function person(name) {
+class person {
+    name;
+    constructor(name) {
         this.name = name;
     }
-    person.prototype.greet = function () {
-        console.log("Helllo my name is ".concat(this.name));
-    };
-    return person;
-}());
+    greet() {
+        console.log(`Helllo my name is ${this.name}`);
+    }
+}
 exports.person = person;
-var utilone = function () {
+const utilone = () => {
     console.log("utilone");
 };
 exports.utilone = utilone;
-var utiltwo = function () {
+const utiltwo = () => {
     console.log("utiltwo");
 };
 exports.utiltwo = utiltwo;
-var calculator = /** @class */ (function () {
-    function calculator(a, b) {
+// we can have only one dafault export in a file
+class calculator {
+    a;
+    b;
+    constructor(a, b) {
         this.a = a;
         this.b = b;
     }
-    calculator.prototype.add = function () {
+    add() {
         return (this.a + this.b);
-    };
-    calculator.prototype.subtract = function () {
+    }
+    subtract() {
         return (this.a - this.b);
-    };
-    calculator.prototype.multiply = function () {
+    }
+    multiply() {
         return (this.a * this.b);
-    };
-    calculator.prototype.divide = function () {
+    }
+    divide() {
         return (this.a / this.b);
-    };
-    return calculator;
-}());
+    }
+}
 exports.default = calculator;

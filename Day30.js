@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 88
 //round function round off the given integar or float
 function roundOff(number) {
@@ -19,4 +21,3 @@ function checkNumber(value) {
 }
 console.log(checkNumber("hello"));
 console.log(checkNumber(985));
-export {};

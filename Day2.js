@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 04
 let author = "Albert Einstein";
 console.log(author, ' once said, "A person who never made a mistake never tried anything new"');
@@ -13,4 +15,3 @@ console.log(NameWithWhiteSpace);
 let strippedName = NameWithWhiteSpace.trim();
 console.log("name without white spaces");
 console.log(strippedName);
-export {};

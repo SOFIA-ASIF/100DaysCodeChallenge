@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 // //question 40
 function makeAlbum(artist, title, tracks) {
     const album = {
@@ -34,4 +36,3 @@ show_magicians(magicians);
 let great_magicians = makegreat(magicians);
 console.log("The Great Magicians:");
 show_magicians(great_magicians);
-export {};

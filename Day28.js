@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 82
 //.length gives the total legth of the string
 function lengthOfString(line3) {
@@ -16,4 +18,3 @@ function replacement(line5) {
     return line5.replace(/your/g, "our");
 }
 console.log(replacement("your mouth can be a barrier between you and your success"));
-export {};

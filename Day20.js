@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 58
 function averageScore(...scores) {
     let totalScores = (scores.reduce((total, grade) => total + grade, 0));
@@ -25,4 +27,3 @@ let userProfile = (function () {
     };
 })();
 userProfile.displayInfo();
-export {};

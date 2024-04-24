@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 115
 function switchExecution(dayNumber) {
     switch (dayNumber) {
@@ -61,4 +63,3 @@ function seasons(month) {
 }
 seasons(3);
 seasons(13);
-export {};

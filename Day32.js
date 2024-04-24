@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 94
 //Map() function takes each element in an array and perform some actions and store it again in the array
 let arr = ["Sofia", "Asif", "Jaziba", "Qurat-ul-ain", "Nayab", "Arifa", "Abdullah"];
@@ -15,4 +17,3 @@ console.log(filterArr(arr1));
 //reduce function give the some of all elements in an array
 let reducedElement = arr1.reduce((total, a) => total + a, 0);
 console.log(reducedElement);
-export {};

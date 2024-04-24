@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 85
 //indexof checks the index of your desired position in a string and if did not find the string it returns -1
 function checkingOfSubstring(line) {
@@ -16,4 +18,3 @@ function extractingAString(line2) {
     console.log(line2.substring(0, 20));
 }
 extractingAString("your mouth can be a barrier between you and your success");
-export {};

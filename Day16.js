@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 46
 let laptop = {
     make: "samsung",
@@ -26,4 +28,3 @@ let prices1 = [500, 200, 456, 874, 569, 201, 56];
 let prices2 = [458, 963, 258, 741, 123, 200, 40];
 let combinedPrices = [...prices1, ...prices2].sort();
 console.log(combinedPrices);
-export {};

@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 10
 // Sofia Asif, 05-03-2024
 // This program prints the sum of two numbers
@@ -19,4 +21,3 @@ let message = " how are you";
 for (let name of names) {
     console.log(`hello ${name}, How are you`);
 }
-export {};

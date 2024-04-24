@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 127
 function traditionalFunction(a, b) {
     console.log(a * b);
@@ -22,4 +24,3 @@ const traditionalVSArrow = {
 };
 traditionalVSArrow.trditional();
 traditionalVSArrow.arrow(); //undefined
-export {};

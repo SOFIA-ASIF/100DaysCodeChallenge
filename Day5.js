@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 13
 let cars = [
     "Toyota Camry",
@@ -26,4 +28,3 @@ GuestNames2[GuestNames2.indexOf(unableToAttend)] = newguest1;
 GuestNames2.forEach((Guestname) => {
     console.log("Hey!", Guestname, "I would like to invite you on a dinner at saturday evening");
 });
-export {};

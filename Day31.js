@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 91
 let favouriteFruit = ["Apple", "Orange", "Banana"];
 console.log(favouriteFruit);
@@ -13,4 +15,3 @@ let index = favouriteFruit.indexOf("Banana");
 console.log(index);
 favouriteFruit[index] = "Mango";
 console.log(favouriteFruit);
-export {};

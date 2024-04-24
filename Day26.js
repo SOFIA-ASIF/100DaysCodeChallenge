@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 76
 function addition(a, b) {
     return a + b;
@@ -19,4 +21,3 @@ const expression = function (d) {
 };
 console.log(declaration(9));
 console.log(expression(9));
-export {};

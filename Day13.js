@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 37
 function make_T_shirt1(size = "large", message = "i love typescript") {
     console.log(`the size of the shirt is ${size} and the message is ${message}`);
@@ -19,4 +21,3 @@ function city_country(city, country) {
 console.log(city_country("karachi", "pakistan"));
 console.log(city_country("tokyo", "japan"));
 console.log(city_country("morocco", "morocco"));
-export {};

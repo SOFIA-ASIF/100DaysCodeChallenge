@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 106
 function findLeapYear(year) {
     if ((year % 4 === 0 && year % 100 === 0) || year % 400 === 0) {
@@ -23,4 +25,3 @@ function stringChecking(str1, str2) {
 }
 console.log(stringChecking("Sofia", "sofia"));
 console.log(stringChecking("Muhammad", "Asif"));
-export {};

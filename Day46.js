@@ -1,6 +1,8 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 136
-for (var i = 1; i <= 5; i++) {
-    console.log("Value of i is: ".concat(i));
+for (let i = 1; i <= 5; i++) {
+    console.log(`Value of i is: ${i}`);
 }
 //question 137
 try {

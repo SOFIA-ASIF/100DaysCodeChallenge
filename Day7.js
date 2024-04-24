@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 // // question 19
 let GuestNames = ["hina", "sadia", "ammara", "bushra"];
 console.log(`the number of people that were invited to dinner are ${GuestNames.length}`);
@@ -29,4 +31,3 @@ let car3 = {
 console.log("description of car 1 is", car1);
 console.log("description of car 2 is", car2);
 console.log("description of car 2 is", car3);
-export {};

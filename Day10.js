@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 28
 let age = 26;
 if (age < 2) {
@@ -50,4 +52,3 @@ for (let i = 0; i <= user_name.length; i++) {
 }
 user_name = [];
 console.log("we need to find some users");
-export {};

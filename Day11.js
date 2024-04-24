@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 32
 let current_array = ["saad", "abdullah", "ali", "bushra", "hassan"];
 let new_users = ["saad", "abdullah", "sadia", "ammara", "sofia"];
@@ -29,4 +31,3 @@ numbers.forEach((number) => {
     }
     console.log(`${number}${ordinalending}`);
 });
-export {};

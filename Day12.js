@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 34
 let favourite_pizza = ["pepperoni", "pineapple", "tikka"];
 for (let i = 0; i < favourite_pizza.length; i++) {
@@ -24,4 +26,3 @@ function make_T_shirt(size, message) {
     console.log(`the size of the shirt is ${size} and the message is ${message}`);
 }
 make_T_shirt("large", " i love black color t shirts");
-export {};

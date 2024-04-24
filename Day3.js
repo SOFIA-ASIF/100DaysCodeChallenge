@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 07
 console.log(4 + 4);
 console.log(10 - 2);
@@ -12,4 +14,3 @@ console.log(5 + 3);
 let num = 23;
 let message6 = "my favourite number is: ";
 console.log(message6 + num);
-export {};

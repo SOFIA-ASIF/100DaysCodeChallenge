@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 // question 25
 let alien_color1 = "green";
 if (alien_color1 == "green") {
@@ -32,4 +34,3 @@ else if (aliencolor == "red") {
     console.log("oops :( You lost the game");
     console.log("you have earned 15 points");
 }
-export {};

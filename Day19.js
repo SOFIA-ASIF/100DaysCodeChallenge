@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 55
 let single = [5, 7, 8, 9, 36, 2];
 let doubleOfSingleArray = single.map(singl => 2 * singl);
@@ -15,4 +17,3 @@ let averageGrades = grades.forEach(grade => {
     sumOfgrades += grade;
 });
 console.log(sumOfgrades / grades.length);
-export {};

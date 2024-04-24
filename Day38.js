@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 112
 let countries = new Map();
 countries.set("Pakistan", "Islamabad");
@@ -19,4 +21,3 @@ countries.forEach((capital, country) => {
 //OR
 for (let capital of countries)
     console.log(`The capitals are ${capital}`);
-export {};

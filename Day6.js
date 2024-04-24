@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 // question 16
 let GuestNames3 = ["hina", "sadia", "ammara", "bushra"];
 GuestNames3.forEach((Guestname) => {
@@ -39,4 +41,3 @@ console.log("reversed order array", favouritePlaces.reverse());
 console.log("again reverse the reversed order array", favouritePlaces.reverse());
 console.log("alphabetically order yhr again reverse the reversed order array", favouritePlaces.sort());
 console.log("again reverse the reversed order array", favouritePlaces.reverse());
-export {};

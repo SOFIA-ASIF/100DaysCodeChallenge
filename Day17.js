@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 49
 function hobbies(...hobby) {
     hobby.forEach(hobb => {
@@ -16,4 +18,3 @@ console.log(idealDay);
 //question 51
 let area = (height, width) => height * width;
 console.log(area(4, 5));
-export {};

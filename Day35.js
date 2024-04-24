@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 103
 function randomBooelan(number) {
     return Math.random() > 0.5;
@@ -16,4 +18,3 @@ function diceRoll() {
     return Math.floor(Math.random() * 6) + 1;
 }
 console.log(diceRoll());
-export {};

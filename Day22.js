@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 64
 //combining number with a string
 let combiningNumberString = function (text, num) {
@@ -16,4 +18,3 @@ let andOperator = function (a, b) {
     console.log(c);
 };
 andOperator(8, 7);
-export {};

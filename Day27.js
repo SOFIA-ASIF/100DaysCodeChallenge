@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 79
 //if we kknow that we will add any other property in obj we have to add its parameter as a optional parameter
 let car = {
@@ -26,4 +28,3 @@ let table = {
     year: 2026,
 };
 iteration(table);
-export {};

@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 97
 // This function formats the current date as DD-MM-YYYY
 function getCurrentDateFormatted() {
@@ -34,5 +36,4 @@ function getNextBirthday(month, day) {
 // Replace with your birth month and day
 const nextBirthday = getNextBirthday(3, 18); // Example: December 25th
 console.log("Next birthday on:", nextBirthday.toLocaleDateString());
-export {};
 // Shows the date of the next birthday.

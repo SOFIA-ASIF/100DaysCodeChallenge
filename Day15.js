@@ -1,3 +1,4 @@
+"use strict";
 // //question 43
 // function show_magicians1(magicians1: string[]): void {
 //     magicians1.forEach((magician1) => {
@@ -23,7 +24,7 @@
 //   show_magicians1(magicians1);
 //   console.log("\nGreat magicians");
 //   show_magicians1(greatmagicians);
-export {};
+Object.defineProperty(exports, "__esModule", { value: true });
 //   //question 44
 //   function makesandwich(...items: string[]): void {
 //     console.log("your sandwich includes");

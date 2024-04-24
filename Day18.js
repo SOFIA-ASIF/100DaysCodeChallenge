@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //question 52
 let smartphone = {
     name: "",
@@ -27,4 +29,3 @@ function dynamicObjectKey(key, value) {
     return dynamicobject;
 }
 console.log(dynamicObjectKey("theme", "dark"));
-export {};

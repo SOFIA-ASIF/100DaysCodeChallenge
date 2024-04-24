@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 // question 22
 let numbers1 = [1, 2, 3, 4, 5];
 console.log(numbers1[10]);
@@ -53,4 +55,3 @@ console.log("Test whether 'banana' is in the array: fruits.includes('banana')");
 console.log(fruits1.includes("banana")); // True
 console.log("Test whether 'grape' is not in the array: !fruits.includes('grape')");
 console.log(!fruits1.includes("grape")); // True
-export {};
